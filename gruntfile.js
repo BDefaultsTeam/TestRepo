@@ -5,8 +5,7 @@ module.exports = function(grunt) {
     // list of css / js files to be build (could be a single page
     // or a group of pages that use the css and js)
     var groupIds = [
-        'restore',
-        'speed'
+        'restore'
     ];
     
     require('jit-grunt')(grunt, {
